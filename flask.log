@@ -1,0 +1,6 @@
+2025-04-23 21:01:03,802 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:01:03,802 INFO: [33mPress CTRL+C to quit[0m [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:01:03,803 INFO:  * Restarting with stat [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:01:04,140 WARNING:  * Debugger is active! [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:01:04,179 INFO:  * Debugger PIN: 899-979-078 [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
