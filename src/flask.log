@@ -45,3 +45,8 @@
 2025-04-23 21:54:05,626 INFO: 127.0.0.1 - - [23/Apr/2025 21:54:05] "GET / HTTP/1.1" 200 - [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
 2025-04-23 21:54:10,084 INFO: 127.0.0.1 - - [23/Apr/2025 21:54:10] "POST /api/numbers HTTP/1.1" 200 - [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
 2025-04-23 21:54:11,474 INFO: 127.0.0.1 - - [23/Apr/2025 21:54:11] "POST /api/numbers HTTP/1.1" 200 - [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:55:15,658 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:55:15,660 INFO: [33mPress CTRL+C to quit[0m [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:55:21,349 INFO: 127.0.0.1 - - [23/Apr/2025 21:55:21] "GET / HTTP/1.1" 200 - [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:55:28,477 INFO: 127.0.0.1 - - [23/Apr/2025 21:55:28] "POST /api/numbers HTTP/1.1" 200 - [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
