@@ -1,5 +1,11 @@
 from flask import Flask, render_template, request, jsonify
 import logging
+import joblib
+import numpy as np
+
+model = joblib.load("Notebooks/models/linear_regression_model.pkl")
+scaler = joblib.load("Notebooks/models/scaler.pkl")
+
 
 app = Flask(__name__)
 
@@ -18,13 +24,13 @@ def index():
 def process_numbers():
     data = request.get_json()
     try:
-        area = float(data.get('number1', 0))
-        price_per_m2 = 300000
-        total_price = area * price_per_m2
+        area = float(data['number1'])
+        scaled_area = scaler.transform([[area]])
+        predicted_price = model.predict(scaled_area)[0]
 
         return jsonify({
             'status': 'success',
-            'price': round(total_price, 2)
+            'price': round(predicted_price, 2)
         })
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 400

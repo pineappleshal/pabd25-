@@ -1,6 +1,636 @@
-2025-04-23 21:01:03,802 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000 [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
-2025-04-23 21:01:03,802 INFO: [33mPress CTRL+C to quit[0m [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
-2025-04-23 21:01:03,803 INFO:  * Restarting with stat [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
-2025-04-23 21:01:04,140 WARNING:  * Debugger is active! [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
-2025-04-23 21:01:04,179 INFO:  * Debugger PIN: 899-979-078 [in C:\Users\1\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\_internal.py:97]
+2025-04-23 21:28:31,464 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:28:31,464 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:28:34,115 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:28:34,121 INFO: 127.0.0.1 - - [23/Apr/2025 21:28:34] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:28:34,708 INFO: 127.0.0.1 - - [23/Apr/2025 21:28:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:28:35,914 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:28:35,918 INFO: 127.0.0.1 - - [23/Apr/2025 21:28:35] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:28:36,223 INFO: 127.0.0.1 - - [23/Apr/2025 21:28:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:31,361 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:31,361 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:39,346 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:29:39,356 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:39] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:39,695 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:40,161 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:29:40,164 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:40] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:40,471 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:40,748 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:29:40,750 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:40] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:41,065 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:41,091 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:29:41,093 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:41] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:41,403 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:41,603 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:29:41,604 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:41] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:29:41,918 INFO: 127.0.0.1 - - [23/Apr/2025 21:29:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:31,607 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:31:31,612 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:31] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:31,986 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:36,697 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:31:36,699 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:36] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:37,007 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:37,263 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:31:37,265 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:37] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:37,604 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:41,345 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:41,345 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:45,048 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:31:45,054 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:45] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:45,372 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:45,612 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:31:45,614 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:45] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:31:45,920 INFO: 127.0.0.1 - - [23/Apr/2025 21:31:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:33:12,348 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:33:12,348 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:33:16,382 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:33:16,388 INFO: 127.0.0.1 - - [23/Apr/2025 21:33:16] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:33:16,726 INFO: 127.0.0.1 - - [23/Apr/2025 21:33:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:34:39,765 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:34:39,766 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:34:51,192 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:34:51,202 INFO: 127.0.0.1 - - [23/Apr/2025 21:34:51] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:34:51,566 INFO: 127.0.0.1 - - [23/Apr/2025 21:34:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:35:31,101 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:35:31,101 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:35:32,748 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('service/index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: service/index.html
+2025-04-23 21:35:32,756 INFO: 127.0.0.1 - - [23/Apr/2025 21:35:32] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:35:33,108 INFO: 127.0.0.1 - - [23/Apr/2025 21:35:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:11,101 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:11,101 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:12,516 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('/Users/chritnie/Downloads/pabd25-main/service/index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/chritnie/Downloads/pabd25-main/service/index.html
+2025-04-23 21:36:12,522 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:12] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:12,869 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:13,497 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('/Users/chritnie/Downloads/pabd25-main/service/index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Users/chritnie/Downloads/pabd25-main/service/index.html
+2025-04-23 21:36:13,499 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:13] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:13,799 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:51,231 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:51,231 INFO: [33mPress CTRL+C to quit[0m [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:52,945 ERROR: Exception on / [GET] [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/service/app.py", line 15, in index
+    return render_template('index.html')
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-04-23 21:36:52,954 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:52] "[35m[1mGET / HTTP/1.1[0m" 500 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
+2025-04-23 21:36:53,308 INFO: 127.0.0.1 - - [23/Apr/2025 21:36:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - [in /Users/chritnie/Downloads/pabd25-main/venv/lib/python3.13/site-packages/werkzeug/_internal.py:97]
