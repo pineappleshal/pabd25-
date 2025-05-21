@@ -3,9 +3,11 @@ import logging
 import joblib
 import numpy as np
 
-model = joblib.load("Notebooks/models/linear_regression_model.pkl")
-scaler = joblib.load("Notebooks/models/scaler.pkl")
-
+# Загрузка моделей
+model_1room = joblib.load("../notebooks/models/gb_1room.pkl")
+model_2room = joblib.load("../notebooks/models/gb_2room.pkl")
+model_3room = joblib.load("../notebooks/models/gb_3room.pkl")
+model_4room = joblib.load("../notebooks/models/gb_4room.pkl")
 
 app = Flask(__name__)
 
@@ -25,8 +27,27 @@ def process_numbers():
     data = request.get_json()
     try:
         area = float(data['number1'])
-        scaled_area = scaler.transform([[area]])
-        predicted_price = model.predict(scaled_area)[0]
+        rooms = int(data['number2'])
+        floors = int(data['number3'])
+        floor = int(data['number4'])
+
+        # Без использования scaler
+        input_data = np.array([[area, rooms, floors, floor]])
+
+        # Выбор модели в зависимости от количества комнат
+        if rooms == 1:
+            model = model_1room
+        elif rooms == 2:
+            model = model_2room
+        elif rooms == 3:
+            model = model_3room
+        elif rooms == 4:
+            model = model_4room
+        else:
+            return jsonify({'status': 'error', 'message': 'Невозможное количество комнат.'}), 400
+
+        # Предсказание
+        predicted_price = model.predict(input_data)[0]
 
         return jsonify({
             'status': 'success',
