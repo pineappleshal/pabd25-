@@ -1,0 +1,682 @@
+2025-05-14 21:04:11,602 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:04:12,602 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:04:12,606 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:04:14,604 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2553303
+2025-05-14 21:04:18,189 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:04:19,666 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2495703
+2025-05-14 21:04:22,836 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:04:22,852 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:04:22,855 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:04:22,855 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:04:22,856 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:06:24,695 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:06:25,719 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:06:25,723 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:06:27,362 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2553216
+2025-05-14 21:06:31,018 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:06:32,543 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2485325
+2025-05-14 21:06:36,054 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:06:36,081 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:06:36,083 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:06:36,083 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:06:36,085 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:08:36,514 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:08:37,151 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:08:37,156 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:08:39,352 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2660237
+2025-05-14 21:08:42,773 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:08:44,297 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2495394
+2025-05-14 21:08:48,100 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:08:48,128 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:08:48,131 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:08:48,131 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:08:48,132 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:09:16,992 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:09:17,008 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:09:17,010 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:09:17,010 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:09:17,011 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:11:45,636 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:11:45,662 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:11:45,664 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:11:45,664 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:11:45,665 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:11:58,567 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:11:59,799 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:11:59,804 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:12:02,351 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2660158
+2025-05-14 21:12:08,826 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:12:10,480 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2495827
+2025-05-14 21:12:13,936 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:12:13,953 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:12:13,955 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:12:13,955 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:12:13,956 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:12:23,645 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:12:23,669 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:12:23,672 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:12:23,672 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:12:23,673 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:12:23,676 root INFO Using GradientBoostingRegressor
+2025-05-14 21:12:23,704 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:12:23,704 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:12:23,709 root INFO Test model. MSE: 231214646684942.16
+2025-05-14 21:12:23,709 root INFO Test model. RMSE: 15205743.87
+2025-05-14 21:12:23,709 root INFO Test model. MAE: 10592335.41
+2025-05-14 21:12:23,709 root INFO Test model. R2 train: 0.75
+2025-05-14 21:12:23,709 root INFO Test model. R2 test: 0.55
+2025-05-14 21:21:25,623 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:21:25,640 root INFO Preprocess_data. train_df: 292 samples
+2025-05-14 21:21:25,643 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:21:25,645 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:21:25,645 root INFO 
+           total_meters     price
+url_id                           
+316721560          47.6  16990000
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+2025-05-14 21:21:25,648 root INFO Using GradientBoostingRegressor
+2025-05-14 21:21:25,673 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:21:25,673 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:21:25,678 root INFO Test model. MSE: 231214646684942.16
+2025-05-14 21:21:25,678 root INFO Test model. RMSE: 15205743.87
+2025-05-14 21:21:25,678 root INFO Test model. MAE: 10592335.41
+2025-05-14 21:21:25,678 root INFO Test model. R2 train: 0.75
+2025-05-14 21:21:25,678 root INFO Test model. R2 test: 0.55
+2025-05-14 21:21:53,161 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:21:53,766 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:21:53,771 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:21:56,054 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2552681
+2025-05-14 21:22:00,325 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:22:01,977 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2500836
+2025-05-14 21:22:05,712 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:22:05,735 root INFO Preprocess_data. train_df: 293 samples
+2025-05-14 21:22:05,738 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:22:05,738 root INFO Preprocess_data. test_df: 74 samples
+2025-05-14 21:22:05,738 root INFO 
+           total_meters     price
+url_id                           
+316724491          35.4  13880000
+316726512          83.3  54700000
+316726678          73.0  64900000
+316731215          35.1  15000000
+316734632          34.9  13000000
+2025-05-14 21:22:05,741 root INFO Using LinearRegression
+2025-05-14 21:22:05,743 root INFO Train model. Coefficients or feature importances: [876886.62469894]
+2025-05-14 21:22:05,743 root INFO Train model. Bias or intercept: -14742862.627788976
+2025-05-14 21:22:05,746 root INFO Test model. MSE: 197167902430465.47
+2025-05-14 21:22:05,746 root INFO Test model. RMSE: 14041648.85
+2025-05-14 21:22:05,746 root INFO Test model. MAE: 10476384.25
+2025-05-14 21:22:05,746 root INFO Test model. R2 train: 0.49
+2025-05-14 21:22:05,746 root INFO Test model. R2 test: 0.62
+2025-05-14 21:22:20,195 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:22:20,607 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:22:20,611 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:22:22,686 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2635405
+2025-05-14 21:22:26,524 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:22:28,694 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2646604
+2025-05-14 21:22:32,961 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:22:32,994 root INFO Preprocess_data. train_df: 303 samples
+2025-05-14 21:22:32,996 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:22:32,996 root INFO Preprocess_data. test_df: 76 samples
+2025-05-14 21:22:32,997 root INFO 
+           total_meters     price
+url_id                           
+316731215          35.1  15000000
+316734632          34.9  13000000
+316734796          73.5  30500000
+316738482          34.7   5830000
+316738482          34.7   5400000
+2025-05-14 21:22:32,999 root INFO Using LinearRegression
+2025-05-14 21:22:33,001 root INFO Train model. Coefficients or feature importances: [890082.88133256]
+2025-05-14 21:22:33,001 root INFO Train model. Bias or intercept: -15507394.033876576
+2025-05-14 21:22:33,003 root INFO Test model. MSE: 204278652306114.22
+2025-05-14 21:22:33,004 root INFO Test model. RMSE: 14292608.31
+2025-05-14 21:22:33,004 root INFO Test model. MAE: 10795164.96
+2025-05-14 21:22:33,004 root INFO Test model. R2 train: 0.50
+2025-05-14 21:22:33,004 root INFO Test model. R2 test: 0.58
+2025-05-14 21:27:46,220 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:27:46,989 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:27:46,994 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:27:49,203 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2552455
+2025-05-14 21:27:53,268 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:27:55,080 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2500833
+2025-05-14 21:27:59,093 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv']
+2025-05-14 21:27:59,128 root INFO Preprocess_data. train_df: 303 samples
+2025-05-14 21:27:59,130 root INFO 
+           total_meters     price
+url_id                           
+261072352          57.6  37000000
+286050252          42.5   7150000
+286050905          90.2   9950000
+286643532          69.8  53422848
+293905913          41.0  53000000
+2025-05-14 21:27:59,130 root INFO Preprocess_data. test_df: 76 samples
+2025-05-14 21:27:59,131 root INFO 
+           total_meters     price
+url_id                           
+316731215          35.1  15000000
+316734632          34.9  13000000
+316734796          73.5  30500000
+316738482          34.7   5830000
+316738482          34.7   5400000
+2025-05-14 21:27:59,133 root INFO Using GradientBoostingRegressor
+2025-05-14 21:27:59,160 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:27:59,160 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:27:59,165 root INFO Test model. MSE: 235396830579638.25
+2025-05-14 21:27:59,165 root INFO Test model. RMSE: 15342647.44
+2025-05-14 21:27:59,165 root INFO Test model. MAE: 10875364.74
+2025-05-14 21:27:59,165 root INFO Test model. R2 train: 0.75
+2025-05-14 21:27:59,165 root INFO Test model. R2 test: 0.52
+2025-05-14 21:28:37,075 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:28:37,450 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:28:37,455 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:28:39,686 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2644395
+2025-05-14 21:28:43,568 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:28:44,822 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2623750
+2025-05-14 21:28:48,232 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:28:49,795 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2617310
+2025-05-14 21:28:53,646 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:28:55,487 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2546229
+2025-05-14 21:28:59,405 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:29:01,332 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2662846
+2025-05-14 21:29:04,680 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:29:04,714 root INFO Preprocess_data. train_df: 344 samples
+2025-05-14 21:29:04,717 root INFO 
+           total_meters     price
+url_id                           
+225134236         62.57  12390000
+261072352         57.60  37000000
+286050252         42.50   7150000
+286050905         90.20   9950000
+286643532         69.80  53422848
+2025-05-14 21:29:04,717 root INFO Preprocess_data. test_df: 86 samples
+2025-05-14 21:29:04,718 root INFO 
+           total_meters     price
+url_id                           
+316762119          44.3  10700000
+316766731          40.8  11400000
+316769330          68.3  44900000
+316773935          44.4  14900000
+316775549          73.0  65000000
+2025-05-14 21:29:04,720 root INFO Using GradientBoostingRegressor
+2025-05-14 21:29:04,747 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:29:04,747 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:29:04,751 root INFO Test model. MSE: 221089474561886.66
+2025-05-14 21:29:04,752 root INFO Test model. RMSE: 14869077.80
+2025-05-14 21:29:04,752 root INFO Test model. MAE: 10426252.71
+2025-05-14 21:29:04,752 root INFO Test model. R2 train: 0.75
+2025-05-14 21:29:04,752 root INFO Test model. R2 test: 0.35
+2025-05-14 21:29:34,894 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:29:35,905 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:29:35,907 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:29:37,926 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2739239
+2025-05-14 21:29:42,278 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:29:43,952 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2578217
+2025-05-14 21:29:48,416 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:29:50,166 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2669947
+2025-05-14 21:29:54,178 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:29:55,730 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2617161
+2025-05-14 21:29:59,836 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:30:01,848 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2695313
+2025-05-14 21:30:05,544 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:30:05,612 root INFO Preprocess_data. train_df: 371 samples
+2025-05-14 21:30:05,615 root INFO 
+           total_meters     price
+url_id                           
+225134236         62.57  12390000
+261072352         57.60  37000000
+286050252         42.50   7150000
+286050905         90.20   9950000
+286643532         69.80  53422848
+2025-05-14 21:30:05,615 root INFO Preprocess_data. test_df: 93 samples
+2025-05-14 21:30:05,616 root INFO 
+           total_meters     price
+url_id                           
+316776911          65.0  29000000
+316780495          42.7  27700000
+316795429          65.6  84900000
+316799695          34.7  10000000
+316813304          79.0  61500000
+2025-05-14 21:30:05,618 root INFO Using GradientBoostingRegressor
+2025-05-14 21:30:05,647 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:30:05,647 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:30:05,652 root INFO Test model. MSE: 254194432682093.28
+2025-05-14 21:30:05,652 root INFO Test model. RMSE: 15943476.18
+2025-05-14 21:30:05,652 root INFO Test model. MAE: 11534354.39
+2025-05-14 21:30:05,652 root INFO Test model. R2 train: 0.72
+2025-05-14 21:30:05,652 root INFO Test model. R2 test: 0.16
+2025-05-14 21:30:38,945 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:30:39,439 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:30:39,440 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:30:41,452 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2679943
+2025-05-14 21:30:45,282 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:30:46,698 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2583106
+2025-05-14 21:30:49,702 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:30:50,889 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2575348
+2025-05-14 21:30:54,237 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:30:55,919 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2674005
+2025-05-14 21:30:59,562 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:31:00,726 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2526711
+2025-05-14 21:31:05,409 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:31:05,445 root INFO Preprocess_data. train_df: 388 samples
+2025-05-14 21:31:05,448 root INFO 
+           total_meters     price
+url_id                           
+225134236         62.57  12390000
+261072352         57.60  37000000
+286050252         42.50   7150000
+286050905         90.20   9950000
+286643532         69.80  53422848
+2025-05-14 21:31:05,448 root INFO Preprocess_data. test_df: 97 samples
+2025-05-14 21:31:05,449 root INFO 
+           total_meters     price
+url_id                           
+316795429          65.6  84900000
+316799695          34.7  10000000
+316813304          79.0  61500000
+316824536          51.4  23500000
+316826848          78.3  35000000
+2025-05-14 21:31:05,450 root INFO Using GradientBoostingRegressor
+2025-05-14 21:31:05,477 root INFO Train model. Coefficients or feature importances: [1.]
+2025-05-14 21:31:05,478 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:31:05,482 root INFO Test model. MSE: 298681994804499.19
+2025-05-14 21:31:05,482 root INFO Test model. RMSE: 17282418.66
+2025-05-14 21:31:05,482 root INFO Test model. MAE: 12349926.68
+2025-05-14 21:31:05,482 root INFO Test model. R2 train: 0.71
+2025-05-14 21:31:05,482 root INFO Test model. R2 test: 0.04
+2025-05-14 21:39:21,512 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:39:22,805 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:39:22,808 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:39:25,217 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2661013
+2025-05-14 21:39:29,659 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:39:31,187 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2614340
+2025-05-14 21:39:36,424 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:39:38,107 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2575324
+2025-05-14 21:39:41,815 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:39:43,493 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2608020
+2025-05-14 21:39:47,125 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:39:48,575 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2526688
+2025-05-14 21:39:52,102 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:39:52,141 root INFO Preprocess_data. train_df: 517 samples
+2025-05-14 21:39:52,144 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:39:52,144 root INFO Preprocess_data. test_df: 130 samples
+2025-05-14 21:39:52,145 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316734796          73.5  30500000.0            3      7            10
+316734844         120.0  63000000.0            4     23            26
+316738482          34.7   5830000.0            1      2             3
+316738482          34.7   5400000.0            1      2             3
+316740000          92.8  92000000.0            4      5             5
+2025-05-14 21:39:52,148 root INFO Using GradientBoostingRegressor
+2025-05-14 21:39:52,188 root INFO Train model. Coefficients or feature importances: [0.79387094 0.03696708 0.02787727 0.14128471]
+2025-05-14 21:39:52,188 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:39:52,195 root INFO Test model. MSE: 180894949833076.41
+2025-05-14 21:39:52,195 root INFO Test model. RMSE: 13449719.32
+2025-05-14 21:39:52,195 root INFO Test model. MAE: 9588086.46
+2025-05-14 21:39:52,195 root INFO Test model. R2 train: 0.81
+2025-05-14 21:39:52,195 root INFO Test model. R2 test: 0.65
+2025-05-14 21:40:19,901 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:40:20,377 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:40:20,381 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:40:22,726 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2551490
+2025-05-14 21:40:26,557 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:40:28,978 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2571167
+2025-05-14 21:40:32,555 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:40:34,663 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2618162
+2025-05-14 21:40:38,166 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:40:40,036 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2591368
+2025-05-14 21:40:43,601 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:40:44,956 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2499388
+2025-05-14 21:40:50,317 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-40.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:40:50,358 root INFO Preprocess_data. train_df: 578 samples
+2025-05-14 21:40:50,362 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:40:50,362 root INFO Preprocess_data. test_df: 145 samples
+2025-05-14 21:40:50,364 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316740000          92.8  92000000.0            4      5             5
+316740050          32.0   5500000.0            1      2             3
+316740849          84.0  76000000.0            3     10            34
+316749006          97.5  66000000.0            4     25            30
+316762119          44.3  10700000.0            2      1             5
+2025-05-14 21:40:50,367 root INFO Using GradientBoostingRegressor
+2025-05-14 21:40:50,410 root INFO Train model. Coefficients or feature importances: [0.83812955 0.03151364 0.0180792  0.11227761]
+2025-05-14 21:40:50,410 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:40:50,416 root INFO Test model. MSE: 163776591471399.69
+2025-05-14 21:40:50,416 root INFO Test model. RMSE: 12797522.86
+2025-05-14 21:40:50,416 root INFO Test model. MAE: 8794750.89
+2025-05-14 21:40:50,416 root INFO Test model. R2 train: 0.84
+2025-05-14 21:40:50,416 root INFO Test model. R2 test: 0.64
+2025-05-14 21:41:48,131 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:41:48,765 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:41:48,768 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:41:51,128 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2552267
+2025-05-14 21:41:55,171 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:41:57,037 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2562294
+2025-05-14 21:42:00,722 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:02,557 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2617852
+2025-05-14 21:42:06,621 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:08,436 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2471244
+2025-05-14 21:42:11,987 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:13,702 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2491919
+2025-05-14 21:42:17,382 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:19,686 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2517719
+2025-05-14 21:42:23,118 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:24,969 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2567006
+2025-05-14 21:42:28,385 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:30,092 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2331107
+2025-05-14 21:42:33,551 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:35,342 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2428635
+2025-05-14 21:42:38,740 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:42:40,459 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room1=1&object_type%5B0%5D=1 HTTP/1.1" 200 2394606
+2025-05-14 21:42:43,941 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/1_2025-05-14_21-41.csv', './data/raw/1_2025-05-14_21-40.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:42:43,982 root INFO Preprocess_data. train_df: 660 samples
+2025-05-14 21:42:43,984 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:42:43,984 root INFO Preprocess_data. test_df: 165 samples
+2025-05-14 21:42:43,986 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316796712          37.0  14600000.0            1      4            18
+316799695          34.7  10000000.0            1      9             9
+316813304          79.0  61500000.0            2      5            13
+316824536          51.4  23500000.0            2      4            17
+316825029          33.0   6950000.0            1      4             9
+2025-05-14 21:42:43,989 root INFO Using GradientBoostingRegressor
+2025-05-14 21:42:44,031 root INFO Train model. Coefficients or feature importances: [0.86494057 0.02752122 0.01744179 0.09009642]
+2025-05-14 21:42:44,031 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:42:44,036 root INFO Test model. MSE: 135680178499688.78
+2025-05-14 21:42:44,036 root INFO Test model. RMSE: 11648183.48
+2025-05-14 21:42:44,036 root INFO Test model. MAE: 7727429.46
+2025-05-14 21:42:44,036 root INFO Test model. R2 train: 0.85
+2025-05-14 21:42:44,036 root INFO Test model. R2 test: 0.61
+2025-05-14 21:43:25,006 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:43:26,118 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:26,120 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:43:28,215 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2661930
+2025-05-14 21:43:31,819 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:33,298 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2622808
+2025-05-14 21:43:36,783 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:37,949 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2616447
+2025-05-14 21:43:41,533 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:43,221 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2546256
+2025-05-14 21:43:46,735 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:49,272 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2613916
+2025-05-14 21:43:52,711 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:54,494 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2631037
+2025-05-14 21:43:57,871 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:43:59,673 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2609732
+2025-05-14 21:44:03,192 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:04,632 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2543417
+2025-05-14 21:44:08,234 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:09,659 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2582946
+2025-05-14 21:44:13,238 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:14,920 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room2=1&object_type%5B0%5D=1 HTTP/1.1" 200 2601759
+2025-05-14 21:44:18,232 root INFO Preprocess_data. Use files to train: ['./data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/2_2025-05-14_21-43.csv', './data/raw/1_2025-05-14_21-41.csv', './data/raw/1_2025-05-14_21-40.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:44:18,276 root INFO Preprocess_data. train_df: 750 samples
+2025-05-14 21:44:18,279 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:44:18,279 root INFO Preprocess_data. test_df: 188 samples
+2025-05-14 21:44:18,280 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316826848          78.3  35000000.0            3     17            17
+316827473          92.0  43400000.0            3      2            12
+316832418          64.6  39890000.0            3      5            10
+316839109          76.0  23350000.0            3     16            22
+316843529          36.0   9900000.0            1      9             9
+2025-05-14 21:44:18,283 root INFO Using GradientBoostingRegressor
+2025-05-14 21:44:18,327 root INFO Train model. Coefficients or feature importances: [0.84684696 0.03428564 0.02160164 0.09726576]
+2025-05-14 21:44:18,327 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:44:18,333 root INFO Test model. MSE: 134007299467803.58
+2025-05-14 21:44:18,333 root INFO Test model. RMSE: 11576152.19
+2025-05-14 21:44:18,333 root INFO Test model. MAE: 7715054.33
+2025-05-14 21:44:18,333 root INFO Test model. R2 train: 0.82
+2025-05-14 21:44:18,333 root INFO Test model. R2 test: 0.59
+2025-05-14 21:44:29,539 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:44:30,300 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:30,305 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:44:32,186 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2738806
+2025-05-14 21:44:35,581 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:37,825 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2579746
+2025-05-14 21:44:41,278 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:43,505 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2672625
+2025-05-14 21:44:47,003 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:48,364 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2614180
+2025-05-14 21:44:51,745 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:53,938 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2659313
+2025-05-14 21:44:57,425 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:44:59,005 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2651840
+2025-05-14 21:45:02,418 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:04,353 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2658049
+2025-05-14 21:45:07,681 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:09,866 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2646166
+2025-05-14 21:45:13,090 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:15,433 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2626630
+2025-05-14 21:45:18,698 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:20,406 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room3=1&object_type%5B0%5D=1 HTTP/1.1" 200 2692868
+2025-05-14 21:45:23,743 root INFO Preprocess_data. Use files to train: ['./data/raw/3_2025-05-14_21-44.csv', './data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/2_2025-05-14_21-43.csv', './data/raw/1_2025-05-14_21-41.csv', './data/raw/1_2025-05-14_21-40.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:45:23,781 root INFO Preprocess_data. train_df: 796 samples
+2025-05-14 21:45:23,784 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:45:23,784 root INFO Preprocess_data. test_df: 200 samples
+2025-05-14 21:45:23,785 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316825029          33.0   6950000.0            1      4             9
+316826848          78.3  35000000.0            3     17            17
+316827473          92.0  43400000.0            3      2            12
+316832418          64.6  39890000.0            3      5            10
+316839109          76.0  23350000.0            3     16            22
+2025-05-14 21:45:23,788 root INFO Using GradientBoostingRegressor
+2025-05-14 21:45:23,830 root INFO Train model. Coefficients or feature importances: [0.82913597 0.04387967 0.019028   0.10795636]
+2025-05-14 21:45:23,830 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:45:23,835 root INFO Test model. MSE: 125367155386353.36
+2025-05-14 21:45:23,835 root INFO Test model. RMSE: 11196747.54
+2025-05-14 21:45:23,835 root INFO Test model. MAE: 7759121.92
+2025-05-14 21:45:23,835 root INFO Test model. R2 train: 0.81
+2025-05-14 21:45:23,835 root INFO Test model. R2 test: 0.64
+2025-05-14 21:45:35,146 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): cian.ru:443
+2025-05-14 21:45:35,734 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:35,739 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.cian.ru:443
+2025-05-14 21:45:38,072 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=1&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2660188
+2025-05-14 21:45:41,898 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:44,199 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=2&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2614239
+2025-05-14 21:45:47,724 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:49,530 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=3&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2628665
+2025-05-14 21:45:52,983 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:45:55,402 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=4&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2608053
+2025-05-14 21:45:58,807 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:00,662 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=5&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2508734
+2025-05-14 21:46:04,213 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:06,049 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=6&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2572557
+2025-05-14 21:46:09,693 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:11,387 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=7&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2661864
+2025-05-14 21:46:15,142 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:17,065 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=8&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2567793
+2025-05-14 21:46:20,452 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:22,733 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=9&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2561487
+2025-05-14 21:46:26,253 urllib3.connectionpool DEBUG https://cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 301 162
+2025-05-14 21:46:28,428 urllib3.connectionpool DEBUG https://www.cian.ru:443 "GET /cat.php?engine_version=2&p=10&with_neighbors=0&region=1&deal_type=sale&offer_type=flat&room4=1&object_type%5B0%5D=1 HTTP/1.1" 200 2672941
+2025-05-14 21:46:32,010 root INFO Preprocess_data. Use files to train: ['./data/raw/3_2025-05-14_21-44.csv', './data/raw/1_2025-05-14_21-01.csv', './data/raw/1_2025-05-14_21-06.csv', './data/raw/2_2025-05-14_21-22.csv', './data/raw/1_2025-04-30_21-24.csv', './data/raw/1_2025-05-14_21-11.csv', './data/raw/4_2025-05-14_21-39.csv', './data/raw/1_2025-05-14_21-04.csv', './data/raw/2_2025-05-14_21-43.csv', './data/raw/1_2025-05-14_21-41.csv', './data/raw/1_2025-05-14_21-40.csv', './data/raw/3_2025-05-14_21-29.csv', './data/raw/4_2025-05-14_21-45.csv', './data/raw/1_2025-05-14_21-21.csv', './data/raw/1_2025-05-14_21-08.csv', './data/raw/1_2025-04-30_21-16.csv', './data/raw/1_2025-05-14_21-27.csv', './data/raw/1_2025-04-30_20-45.csv', './data/raw/4_2025-05-14_21-30.csv', './data/raw/2_2025-05-14_21-28.csv']
+2025-05-14 21:46:32,050 root INFO Preprocess_data. train_df: 824 samples
+2025-05-14 21:46:32,052 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+225134236         62.57  12390000.0            2      4            18
+261072352         57.60  37000000.0            2     30            41
+279836476        134.00  87500000.0            4     21            44
+286050252         42.50   7150000.0            1      5             9
+286050905         90.20   9950000.0            3      1             3
+2025-05-14 21:46:32,052 root INFO Preprocess_data. test_df: 207 samples
+2025-05-14 21:46:32,054 root INFO 
+           total_meters       price  rooms_count  floor  floors_count
+url_id                                                               
+316843529          36.0   9900000.0            1      9             9
+316845905          30.0  10900000.0            1      1             8
+316847288          35.5  12000000.0            1      3            17
+316850795          78.0  52500000.0            3     28            33
+316854279          32.0  15990000.0            2      4             5
+2025-05-14 21:46:32,056 root INFO Using GradientBoostingRegressor
+2025-05-14 21:46:32,102 root INFO Train model. Coefficients or feature importances: [0.83422241 0.04434713 0.01640141 0.10502905]
+2025-05-14 21:46:32,102 root INFO Train model. Bias or intercept: n/a
+2025-05-14 21:46:32,108 root INFO Test model. MSE: 125572460241005.53
+2025-05-14 21:46:32,108 root INFO Test model. RMSE: 11205911.84
+2025-05-14 21:46:32,108 root INFO Test model. MAE: 7797531.58
+2025-05-14 21:46:32,108 root INFO Test model. R2 train: 0.80
+2025-05-14 21:46:32,108 root INFO Test model. R2 test: 0.72

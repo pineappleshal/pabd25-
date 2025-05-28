@@ -1,0 +1,27 @@
+stages:
+  parse_data:
+    cmd: python src/parse_cian.py --n_rooms 1
+    deps:
+    - src/parse_cian.py
+    outs:
+    - src/data/raw
+  preprocess_data:
+    cmd: python src/preprocess_data.py
+    deps:
+    - src/data/raw
+    - src/preprocess_data.py
+    outs:
+    - src/data/processed
+  train_model:
+    cmd: python src/train_model.py --model_path notebooks/models/gb_1room.pkl --model_type gb
+    deps:
+    - src/data/processed/train.csv
+    - src/train_model.py
+    outs:
+    - notebooks/models/gb_1room.pkl
+  test_model:
+    cmd: python src/test_model.py --model_path notebooks/models/gb_1room.pkl
+    deps:
+    - src/data/processed/test.csv
+    - notebooks/models/gb_1room.pkl
+    - src/test_model.py

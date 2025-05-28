@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода чисел</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Укажите параметры недвижимости</h2>
+        <form id="numberForm">
+            <input type="number" id="num1" placeholder="Площадь квартиры, м2" required>
+            <input type="number" id="num2" placeholder="Количество комнат" required>
+            <input type="number" id="num3" placeholder="Этажей в доме" required>
+            <input type="number" id="num4" placeholder="Этаж квартиры" required>
+            <button type="button" onclick="submitForm()">Отправить</button>
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function submitForm() {
+            const num1 = document.getElementById('num1').value;
+            const num2 = document.getElementById('num2').value;
+            const num3 = document.getElementById('num3').value;
+            const num4 = document.getElementById('num4').value;
+    
+            const inputs = [num1, num2, num3, num4];
+    
+            // Проверка значений
+            for (let i = 0; i < inputs.length; i++) {
+                const value = parseFloat(inputs[i]);
+    
+                if (isNaN(value)) {
+                    alert(`Значение №${i + 1} не является числом.`);
+                    return;
+                }
+    
+                if (value <= 0) {
+                    alert(`Значение №${i + 1} должно быть положительным.`);
+                    return;
+                }
+    
+                if (value > 1000000) {
+                    alert(`Значение №${i + 1} превышает допустимый максимум (1 000 000).`);
+                    return;
+                }
+            }
+    
+            const data = {
+                number1: parseFloat(num1),
+                number2: parseFloat(num2),
+                number3: parseFloat(num3),
+                number4: parseFloat(num4)
+            };
+    
+            fetch('/api/numbers', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+    if (data.status === 'success') {
+        document.getElementById('response').innerText =
+            '💰 Прогнозируемая цена: ' + data.price.toLocaleString('ru-RU') + ' ₽';
+    } else {
+        document.getElementById('response').innerText =
+            '⚠️ Ошибка: ' + (data.message || 'не удалось предсказать цену');
+    }
+})
+        .catch(error => {
+            console.error('Ошибка:', error);
+            document.getElementById('response').innerText = '❌ Не удалось отправить данные. Проверьте соединение.';
+        });
+        }
+    </script>    
+</body>
+</head>
+</html>

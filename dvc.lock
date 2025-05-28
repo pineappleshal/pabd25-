@@ -1,0 +1,65 @@
+schema: '2.0'
+stages:
+  parse_data:
+    cmd: python src/parse_cian.py --n_rooms 1
+    deps:
+    - path: src/parse_cian.py
+      hash: md5
+      md5: 6cc4ba98bb23706f1af7ac4e5f99bad8
+      size: 853
+    outs:
+    - path: src/data/raw
+      hash: md5
+      md5: 0feaa9fd6163e6f51e7b6819dc97490b.dir
+      size: 110085
+      nfiles: 1
+  preprocess_data:
+    cmd: python src/preprocess_data.py
+    deps:
+    - path: src/data/raw
+      hash: md5
+      md5: 0feaa9fd6163e6f51e7b6819dc97490b.dir
+      size: 110085
+      nfiles: 1
+    - path: src/preprocess_data.py
+      hash: md5
+      md5: 8310144eb1ddbeb22978d90a1b23a2cb
+      size: 1452
+    outs:
+    - path: src/data/processed
+      hash: md5
+      md5: a1da374d9012fdd09aac306e5d5bad11.dir
+      size: 16654
+      nfiles: 2
+  train_model:
+    cmd: python src/train_model.py --model_path notebooks/models/gb_1room.pkl --model_type
+      gb
+    deps:
+    - path: src/data/processed/train.csv
+      hash: md5
+      md5: 1aa7c3d4d5922a01df750f94ebca1b84
+      size: 2256
+    - path: src/train_model.py
+      hash: md5
+      md5: c52dc8b86772bd2f23473fcf205228ea
+      size: 1071
+    outs:
+    - path: notebooks/models/gb_1room.pkl
+      hash: md5
+      md5: 667a1b428d5e80872cfdc589ea31f07e
+      size: 175496
+  test_model:
+    cmd: python src/test_model.py --model_path notebooks/models/gb_1room.pkl
+    deps:
+    - path: notebooks/models/gb_1room.pkl
+      hash: md5
+      md5: 667a1b428d5e80872cfdc589ea31f07e
+      size: 175496
+    - path: src/data/processed/test.csv
+      hash: md5
+      md5: dd5fb03e7793fb524deb4b8bf17c72fe
+      size: 613
+    - path: src/test_model.py
+      hash: md5
+      md5: 803efe4c453c768394c09f3b282e7079
+      size: 1393
